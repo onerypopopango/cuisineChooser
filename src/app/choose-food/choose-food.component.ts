@@ -40,6 +40,7 @@ export class ChooseFoodComponent implements OnInit {
   buttonClick() {
     // alert("Button was clicked!");
     this.isLoading = true;
+    this.isResults = false;
     this.randomise();
   }
 
