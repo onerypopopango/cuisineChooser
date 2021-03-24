@@ -1,0 +1,54 @@
+.content {
+    margin-top: 20vh;
+
+    .title {
+        h1 {
+            text-align: center;
+            color: #003c00;
+            font-family: 'Lacquer', cursive;
+            font-size: 3em;
+        }
+    }
+
+    .introText {
+        h2 {
+            text-align: center;
+            color: #003c00;
+            font-family: 'Lacquer', cursive;
+        }
+
+        .centreButton {
+            text-align: center;
+        }
+    }
+    
+    @keyframes spin {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
+    }
+
+    .loadingArea {
+        text-align: center;
+        
+        img {
+            width: 70%;
+            animation-name: spin;
+            animation-duration: 5s;
+        }
+    }
+
+    .results {
+        text-align: center;
+
+        h1 {
+            color: #003c00;
+        }
+    }
+}
+
+.bottomFooter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: greenyellow;
+}
